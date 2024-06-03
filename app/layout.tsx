@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { sahelFont } from "@/public/fonts/font"
 import "./globals.css"
 
 export const metadata: Metadata = {
@@ -13,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fa-IR" dir="rtl">
-      <body>{children}</body>
+      <body className={`bg-gray-50 ${sahelFont.className}`}>{children}</body>
     </html>
   )
 }
