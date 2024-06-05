@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fa-IR" dir="rtl">
-      <body className={`bg-gray-50 ${sahelFont.className}`}>{children}</body>
+      <body className={`${sahelFont.className}`}>{children}</body>
     </html>
   )
 }
