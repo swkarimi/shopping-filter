@@ -20,6 +20,7 @@ model Product {
   size     SIZE_TYPE
   color    COLOR_TYPE
   price    Int
+  createdAt     DateTime @default(now()) @map("created_at")
 
   @@map("products")
 }
