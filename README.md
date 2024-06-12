@@ -6,6 +6,7 @@ First, run the development server:
 yarn dev
 ```
 ### Screen record
-https://github.com/swkarimi/shopping-filter/assets/108227777/a57486cd-bad8-4556-b81e-5bb1fcb461f7
+https://github.com/swkarimi/shopping-filter/assets/108227777/2c64ba1b-45e2-43c8-96d9-548330748b03
+
 
 
